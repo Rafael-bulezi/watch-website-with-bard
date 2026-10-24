@@ -19,7 +19,7 @@ Open the printed address, or `http://localhost:5178` with the command above. The
 - **The cabinet** — eight watches with family filters (all, complications, steel, gold, high jewellery), live counts, and a card grid that opens a detail sheet with a loupe over the photograph.
 - **The dial** — a working watch face and digital readout set to Africa/Luanda time, drawn in SVG and updated each second.
 - **The atelier** — the appointment argument, the three-step consignment process, and a booking dialog with an object selector, date, time, name and notes.
-- **The viewing request** — validation, a prepared request sheet with a reference, a copy action with manual fallback, and a reset that returns the form to its opening state.
+- **The viewing request** — validation, a prepared note, a copy action with manual fallback, and an edit step that returns the form with its details intact.
 - **Notes** — three short editorial pieces on wearing, collecting and servicing.
 - **Visit** — address, hours, contact and appointment entry points.
 - **Navigation** — desktop links and a full-screen menu under 860px, with focus management, Escape and scroll lock.
