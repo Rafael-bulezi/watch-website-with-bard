@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#edede7" />
+    <title>Meridiano — A private cabinet of watches, Luanda</title>
+    <meta
+      name="description"
+      content="Meridiano is a concept watch cabinet in Luanda. Eight objects, chosen by hand, kept for viewing by appointment."
+    />
+    <meta property="og:title" content="Meridiano — A private cabinet of watches" />
+    <meta
+      property="og:description"
+      content="A concept watch cabinet in Luanda. Eight objects, chosen by hand, shown by appointment."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300..700;1,400&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-head" data-header>
+      <div class="head-inner">
+        <a class="wordmark" href="#top" aria-label="Meridiano, back to top">
+          <span class="wordmark-name">Meridiano</span>
+          <span class="wordmark-sub">Relojoaria · Luanda</span>
+        </a>
+
+        <nav class="desk-nav" aria-label="Primary">
+          <a href="#cabinet">The cabinet</a>
+          <a href="#atelier">Atelier</a>
+          <a href="#notes">Notes</a>
+          <a href="#visit">Visit</a>
+        </nav>
+
+        <div class="head-right">
+          <p class="head-clock" aria-label="Current time in Luanda">
+            <span class="pulse" aria-hidden="true"></span>
+            <span class="head-city">Luanda</span>
+            <time data-clock>--:--:--</time>
+          </p>
+          <button class="btn btn-sm btn-ink head-cta" type="button" data-open-booking>
+            Book a viewing
+          </button>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="site-menu"
+            data-open-menu
+          >
+            <span class="menu-toggle-label">Menu</span>
+            <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>Private horology · Luanda, Angola</p>
+              <h1 class="hero-title" id="hero-title">
+                <span>Time,</span>
+                <em>held<span class="stop" aria-hidden="true">.</span></em>
+              </h1>
+              <p class="hero-lede">
+                A small cabinet of watches chosen by hand in Luanda. Modern, vintage and the occasional
+                outlier — bought, sold and consigned in person.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-ink" href="#cabinet">
+                  Enter the cabinet
+                  <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12.5 3.5M5.5 3.5h7v7" /></svg>
+                </a>
+                <button class="btn btn-quiet" type="button" data-open-booking>
+                  Request a viewing
+                </button>
+              </div>
+              <dl class="hero-facts">
+                <div>
+                  <dt>Boutique</dt>
+                  <dd>Ilha de Luanda</dd>
+                </div>
+                <div>
+                  <dt>Hours</dt>
+                  <dd>Mon–Sat, 10–18</dd>
+                </div>
+                <div>
+                  <dt>Kept</dt>
+                  <dd><span data-count>08</span> objects</dd>
+                </div>
+              </dl>
+            </div>
+
+            <figure class="hero-figure">
+              <div class="figure-top">
+                <span><span class="figure-index">Object 03</span> — The steel chronograph</span>
+                <span class="figure-top-meta">Steel · leather · automatic</span>
+              </div>
+              <div class="hero-stage" data-loupe-stage>
+                <span class="hero-dial" aria-hidden="true"></span>
+                <img
+                  class="hero-watch"
+                  src="assets/object-steel-chrono.webp"
+                  alt="A steel automatic chronograph with a black dial, day-date window and tan leather strap, photographed upright."
+                  width="621"
+                  height="1125"
+                  fetchpriority="high"
+                  data-loupe-source
+                />
+                <div class="loupe" data-loupe aria-hidden="true">
+                  <img src="assets/object-steel-chrono.webp" alt="" width="621" height="1125" />
+                </div>
+                <span class="stage-mark stage-mark-tl" aria-hidden="true"></span>
+                <span class="stage-mark stage-mark-br" aria-hidden="true"></span>
+              </div>
+              <figcaption class="hero-caption">
+                <div class="hero-caption-main">
+                  <span class="caption-maker">Hamilton</span>
+                  <span class="caption-line">On the leather, off the record.</span>
+                </div>
+                <div class="hero-caption-actions">
+                  <span class="loupe-hint">Move to inspect <span aria-hidden="true">×2</span></span>
+                  <button class="link-underline" type="button" data-object="03">
+                    View this object
+                  </button>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="hero-foot">
+            <span>Private dealer · by appointment</span>
+            <a class="scroll-cue" href="#cabinet">
+              <span>Scroll to the cabinet</span>
+              <span class="scroll-line" aria-hidden="true"></span>
+            </a>
+            <span class="hero-foot-right">8°47′S 13°14′E · WAT</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Services offered by the boutique">
+        <div class="ticker-track" data-ticker>
+          <span>Buying</span><i aria-hidden="true">·</i>
+          <span>Selling</span><i aria-hidden="true">·</i>
+          <span>Consignment</span><i aria-hidden="true">·</i>
+          <span>Sourcing</span><i aria-hidden="true">·</i>
+          <span>Valuation</span><i aria-hidden="true">·</i>
+          <span>Private viewings</span><i aria-hidden="true">·</i>
+          <span>Luanda</span><i aria-hidden="true">·</i>
+          <span>Buying</span><i aria-hidden="true">·</i>
+          <span>Selling</span><i aria-hidden="true">·</i>
+          <span>Consignment</span><i aria-hidden="true">·</i>
+          <span>Sourcing</span><i aria-hidden="true">·</i>
+          <span>Valuation</span><i aria-hidden="true">·</i>
+          <span>Private viewings</span><i aria-hidden="true">·</i>
+          <span>Luanda</span><i aria-hidden="true">·</i>
+        </div>
+      </section>
+
+      <section class="cabinet" id="cabinet" aria-labelledby="cabinet-title">
+        <div class="shell">
+          <header class="section-head reveal">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>01 / The cabinet</p>
+              <h2 id="cabinet-title">Eight objects,<br /><em>chosen by hand.</em></h2>
+            </div>
+            <div class="section-intro">
+              <p>
+                Steel and gold, complicated and plain. Each piece is here because it earns its place on
+                the wrist — not because it fills a page.
+              </p>
+              <p class="section-note">Photographed in the cabinet. Prices on request.</p>
+            </div>
+          </header>
+
+          <div class="cabinet-bar reveal">
+            <div class="filter-group" role="group" aria-label="Filter objects by family">
+              <span class="filter-label">Filter</span>
+              <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">
+                All <span>08</span>
+              </button>
+              <button class="chip" type="button" data-filter="complications" aria-pressed="false">
+                Complications <span>02</span>
+              </button>
+              <button class="chip" type="button" data-filter="steel" aria-pressed="false">
+                Steel <span>02</span>
+              </button>
+              <button class="chip" type="button" data-filter="gold" aria-pressed="false">
+                Gold <span>03</span>
+              </button>
+              <button class="chip" type="button" data-filter="jewellery" aria-pressed="false">
+                High jewellery <span>01</span>
+              </button>
+            </div>
+            <p class="result-count" aria-live="polite" data-result-count>Showing all 8</p>
+          </div>
+
+          <div class="object-grid" data-object-grid></div>
+          <noscript>
+            <p class="noscript-note">Enable JavaScript to browse the cabinet.</p>
+          </noscript>
+
+          <div class="cabinet-foot reveal">
+            <p>Every object is held for viewing in Luanda. Condition reports on request.</p>
+            <button class="btn btn-ink" type="button" data-open-booking>
+              Request the full list
+              <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12.5 3.5M5.5 3.5h7v7" /></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="atelier" id="atelier" aria-labelledby="atelier-title">
+        <div class="shell">
+          <div class="atelier-grid">
+            <div class="atelier-copy reveal">
+              <p class="eyebrow eyebrow-light"><span class="eyebrow-rule" aria-hidden="true"></span>02 / The atelier</p>
+              <h2 id="atelier-title">A watch is better<br /><em>handled in person.</em></h2>
+              <p class="atelier-lede">
+                We buy with care, sell without noise, and take consignments one at a time. Bring the
+                watch — papers if you have them — and an hour to talk.
+              </p>
+
+              <ol class="steps">
+                <li>
+                  <span class="step-no">01</span>
+                  <div>
+                    <h3>Bring it</h3>
+                    <p>A photograph and a reference are enough to begin.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="step-no">02</span>
+                  <div>
+                    <h3>Look closer</h3>
+                    <p>We open the case, check the movement, and tell you what we find.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="step-no">03</span>
+                  <div>
+                    <h3>Place it</h3>
+                    <p>In the cabinet, or quietly with a collector who is waiting.</p>
+                  </div>
+                </li>
+              </ol>
+
+              <button class="btn btn-paper" type="button" data-open-booking data-interest="Selling or consigning">
+                Start a conversation
+                <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12.5 3.5M5.5 3.5h7v7" /></svg>
+              </button>
+            </div>
+
+            <figure class="atelier-figure reveal">
+              <div class="atelier-plate">
+                <span class="atelier-dial" aria-hidden="true"></span>
+                <img
+                  src="assets/object-pair.webp"
+                  alt="Two steel chronograph watches with blue and black dials, laid side by side."
+                  width="815"
+                  height="597"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="atelier-object-no">Pair · for comparison</span>
+              </div>
+              <figcaption>
+                Two chronographs, one decision. Both held in the cabinet.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="notes" id="notes" aria-labelledby="notes-title">
+        <div class="shell">
+          <header class="section-head reveal">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>03 / Notes</p>
+              <h2 id="notes-title">Notes from<br /><em>the cabinet.</em></h2>
+            </div>
+            <div class="section-intro">
+              <p>
+                Opinion, not advice. A few thoughts collected between viewings — about wearing one
+                watch, reading a dial, and knowing when to stop.
+              </p>
+            </div>
+          </header>
+
+          <div class="notes-grid">
+            <article class="note reveal">
+              <figure class="note-figure note-figure-portrait">
+                <img
+                  src="assets/editorial-portrait.webp"
+                  alt="A man in white linen resting his hand on his arm, wearing a black watch."
+                  width="1000"
+                  height="1250"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <p class="note-index">Note 01 <span>·</span> The daily</p>
+              <h3>The case for one watch</h3>
+              <p>
+                A collection is not a requirement. One watch worn daily, serviced when it asks,
+                becomes more legible than a drawer of seldom-seen things.
+              </p>
+            </article>
+
+            <article class="note reveal">
+              <figure class="note-figure note-figure-wide">
+                <img
+                  src="assets/editorial-suit.webp"
+                  alt="A close crop of a pinstripe suit and tie, with a steel chronograph on a tan strap at the cuff."
+                  width="1600"
+                  height="1000"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <p class="note-index">Note 02 <span>·</span> The details</p>
+              <h3>What the pushers know</h3>
+              <p>
+                A chronograph is not jewellery. Start, stop, reset — feel the action before you fall
+                for the dial. A pusher should answer, not resist.
+              </p>
+            </article>
+
+            <article class="note reveal">
+              <figure class="note-figure note-figure-portrait">
+                <img
+                  src="assets/editorial-street.webp"
+                  alt="A man in a denim jacket holding his lapel, a dark steel watch on a brown strap visible at his wrist."
+                  width="1000"
+                  height="1250"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <p class="note-index">Note 03 <span>·</span> The finish</p>
+              <h3>Steel, then gold</h3>
+              <p>
+                Two-tone is a bridge between a suit and a Saturday. It works when the dial stays
+                quiet, and when the gold is the only thing asking for attention.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit" id="visit" aria-labelledby="visit-title">
+        <div class="shell">
+          <div class="visit-grid">
+            <div class="visit-copy reveal">
+              <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>04 / Visit</p>
+              <h2 id="visit-title">Come and see it<br /><em>on the wrist.</em></h2>
+              <p class="visit-lede">
+                One hour, one client at a time. Tell us what you are looking for, or bring what you
+                already have. Coffee is a given.
+              </p>
+              <button class="btn btn-ink" type="button" data-open-booking>
+                Request an appointment
+                <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12.5 3.5M5.5 3.5h7v7" /></svg>
+              </button>
+
+              <dl class="visit-facts">
+                <div>
+                  <dt>Place</dt>
+                  <dd>Ilha de Luanda<br />Luanda, Angola</dd>
+                </div>
+                <div>
+                  <dt>Hours</dt>
+                  <dd>Mon–Sat, 10:00–18:00<br />Sundays by arrangement</dd>
+                </div>
+                <div>
+                  <dt>Coordinates</dt>
+                  <dd>8°47′S 13°14′E<br />WAT · UTC+1</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="visit-dial-wrap reveal">
+              <div class="visit-dial-head">
+                <span>Luanda, now</span>
+                <span class="visit-dial-ref">Ref. WAT 01</span>
+              </div>
+              <div class="live-dial">
+                <svg viewBox="0 0 320 320" role="img" aria-labelledby="dial-title dial-desc">
+                  <title id="dial-title">The current time in Luanda</title>
+                  <desc id="dial-desc">A live clock dial showing hours, minutes and seconds in Luanda.</desc>
+                  <circle class="dial-rim" cx="160" cy="160" r="153" />
+                  <circle class="dial-inner" cx="160" cy="160" r="144" />
+                  <g class="dial-ticks" data-dial-ticks aria-hidden="true"></g>
+                  <g class="dial-numerals" aria-hidden="true">
+                    <text x="160" y="57">12</text>
+                    <text x="270" y="170">3</text>
+                    <text x="160" y="281">6</text>
+                    <text x="50" y="170">9</text>
+                  </g>
+                  <text class="dial-word" x="160" y="92">MERIDIANO</text>
+                  <text class="dial-word dial-word-small" x="160" y="241">LUANDA</text>
+                  <line class="hand hand-hour" data-hand-hour x1="160" y1="172" x2="160" y2="96" />
+                  <line class="hand hand-minute" data-hand-minute x1="160" y1="176" x2="160" y2="70" />
+                  <line class="hand hand-second" data-hand-second x1="160" y1="188" x2="160" y2="60" />
+                  <circle class="hand-pin" cx="160" cy="160" r="6" />
+                  <circle class="hand-pin-dot" cx="160" cy="160" r="2" />
+                </svg>
+              </div>
+              <p class="dial-digital"><time data-clock>--:--:--</time> <span>WAT</span></p>
+              <p class="dial-note">The hour here is kept in person. The clock, at least, is live.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-foot">
+      <div class="shell">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <p class="foot-eyebrow">A private cabinet of watches</p>
+            <p class="foot-lede">
+              Buying, selling and consignment by appointment on the Ilha, Luanda.
+            </p>
+          </div>
+          <nav class="foot-nav" aria-label="Footer">
+            <a href="#cabinet">The cabinet</a>
+            <a href="#atelier">Atelier</a>
+            <a href="#notes">Notes</a>
+            <a href="#visit">Visit</a>
+          </nav>
+          <div class="foot-visit">
+            <p class="foot-label">Appointments</p>
+            <button class="link-underline link-light" type="button" data-open-booking>
+              Request a viewing
+            </button>
+            <p class="foot-hours">Mon–Sat, 10:00–18:00<br />WAT · UTC+1</p>
+          </div>
+        </div>
+
+        <p class="foot-mark" aria-hidden="true">Meridiano</p>
+
+        <div class="foot-bottom">
+          <p>© 2026 Meridiano. Concept rebuild by Razlo Digital.</p>
+          <p class="foot-disclaimer">
+            A concept boutique, not an authorised dealer. Watch names and marks belong to their
+            owners; photography from the original project archive and Unsplash. No orders or payments
+            are processed.
+          </p>
+          <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="site-menu" id="site-menu" aria-labelledby="menu-title">
+      <div class="menu-shell">
+        <div class="menu-head">
+          <p class="wordmark-name" id="menu-title">Meridiano</p>
+          <button class="menu-close" type="button" data-close-menu aria-label="Close menu">
+            <span>Close</span>
+            <span class="menu-close-x" aria-hidden="true"></span>
+          </button>
+        </div>
+        <nav class="menu-nav" aria-label="Mobile">
+          <a href="#cabinet" data-menu-link><span aria-hidden="true">01</span>The cabinet</a>
+          <a href="#atelier" data-menu-link><span aria-hidden="true">02</span>Atelier</a>
+          <a href="#notes" data-menu-link><span aria-hidden="true">03</span>Notes</a>
+          <a href="#visit" data-menu-link><span aria-hidden="true">04</span>Visit</a>
+        </nav>
+        <div class="menu-foot">
+          <p class="head-clock">
+            <span class="pulse" aria-hidden="true"></span>
+            Luanda <time data-clock>--:--:--</time>
+          </p>
+          <button class="btn btn-ink" type="button" data-open-booking data-close-menu-first>
+            Book a viewing
+          </button>
+          <p class="menu-note">Ilha de Luanda · 8°47′S 13°14′E</p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="object-dialog" id="object-dialog" aria-labelledby="object-dialog-title">
+      <div class="object-dialog-shell">
+        <button class="dialog-close" type="button" data-close-object aria-label="Close object">
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="object-dialog-figure">
+          <span class="object-dialog-index" data-object-index>Object 03</span>
+          <img src="assets/object-steel-chrono.webp" alt="" data-object-image />
+        </div>
+        <div class="object-dialog-copy">
+          <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span><span data-object-maker>Hamilton</span></p>
+          <h2 id="object-dialog-title" data-object-title>The steel chronograph</h2>
+          <p class="object-dialog-desc" data-object-desc></p>
+          <dl class="object-specs" data-object-specs></dl>
+          <div class="object-dialog-price">
+            <span>Price</span>
+            <strong>On request</strong>
+          </div>
+          <div class="object-dialog-actions">
+            <button class="btn btn-ink" type="button" data-object-booking>
+              Request details
+              <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12.5 3.5M5.5 3.5h7v7" /></svg>
+            </button>
+            <p>Held in Luanda. Condition report on request.</p>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="booking-dialog" id="booking-dialog" aria-labelledby="booking-title">
+      <div class="booking-shell">
+        <button class="dialog-close dialog-close-dark" type="button" data-close-booking aria-label="Close appointment request">
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="booking-aside">
+          <div class="booking-deco" aria-hidden="true"></div>
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-rule" aria-hidden="true"></span>By appointment</p>
+          <h2 id="booking-title">An hour,<br /><em>kept for you.</em></h2>
+          <p>
+            Viewings are held on the Ilha, one client at a time. Bring a watch, a question, or
+            nothing at all.
+          </p>
+          <dl class="booking-facts">
+            <div><dt>Hours</dt><dd>Mon–Sat, 10:00–18:00</dd></div>
+            <div><dt>Place</dt><dd>Ilha de Luanda, Angola</dd></div>
+            <div><dt>Now</dt><dd><time data-clock>--:--:--</time> WAT</dd></div>
+          </dl>
+        </div>
+
+        <div class="booking-main">
+          <form class="booking-form" data-booking-form novalidate>
+            <p class="booking-kicker">Request a viewing</p>
+            <div class="field-row">
+              <div class="field">
+                <label for="booking-name">Your name</label>
+                <input id="booking-name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="booking-email">Email</label>
+                <input id="booking-email" name="email" type="email" autocomplete="email" required />
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="booking-interest">What brings you in?</label>
+                <select id="booking-interest" name="interest">
+                  <option>A viewing</option>
+                  <option>Buying</option>
+                  <option>Selling or consigning</option>
+                  <option>Sourcing a piece</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="booking-object">Object of interest</label>
+                <select id="booking-object" name="object" data-booking-object>
+                  <option value="">No particular object</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="booking-date">Preferred day</label>
+              <input id="booking-date" name="date" type="date" />
+            </div>
+            <div class="field">
+              <label for="booking-message">Anything we should know?</label>
+              <textarea id="booking-message" name="message" rows="3" placeholder="A reference, a wrist size, a question."></textarea>
+            </div>
+            <p class="form-error" data-booking-error role="alert" hidden></p>
+            <div class="booking-actions">
+              <button class="btn btn-ink" type="submit">
+                Prepare request
+                <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12.5 3.5M5.5 3.5h7v7" /></svg>
+              </button>
+              <p>This concept has no booking server. Your note is prepared for you to copy.</p>
+            </div>
+          </form>
+
+          <div class="booking-ready" data-booking-ready hidden>
+            <p class="booking-kicker">Your note is ready</p>
+            <h3>Copy it and send it to the atelier.</h3>
+            <p class="booking-ready-copy">
+              This is a concept site, so nothing is sent automatically. Your details are below.
+            </p>
+            <pre class="booking-summary" data-booking-summary></pre>
+            <div class="booking-ready-actions">
+              <button class="btn btn-ink" type="button" data-copy-request>Copy the note</button>
+              <button class="btn btn-quiet" type="button" data-booking-reset>Edit request</button>
+            </div>
+            <p class="copy-status" data-copy-status role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>

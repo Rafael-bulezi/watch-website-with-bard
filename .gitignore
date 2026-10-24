@@ -1,0 +1,8 @@
+# Local QA captures and working files
+qa/
+assets-src/
+*.log
+.DS_Store
+
+# The original one-day Bard build is kept locally for reference only
+1 day project with bard/
